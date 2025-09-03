@@ -1,3 +1,3 @@
 # How to use
-Download the files<br><br>
-Open the Index.html to see the ranking
+Step 1. Download the files<br><br>
+Step 2. Open the Index.html to see the ranking
