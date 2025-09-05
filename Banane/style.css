@@ -1,5 +1,8 @@
 html, body { height: 100%; margin: 0; }
     body {background: url('assets/7vnw19dzivpd1.jpg') ;
-    background-size: cover; }
+    background-size: cover;}
     .content { background: rgba(255,255,255,0.75); padding: 1rem; border-radius: 8px; max-width: 1000px; margin: 0 auto; }
     img { max-width: 100%; height: auto; }
+    hr {
+  border-color:rgba(5, 2, 1, 0.488) ;
+}
