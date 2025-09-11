@@ -10,33 +10,39 @@ html, body { height: 100%; margin: 0; }
   border: 2px solid #000000;
   padding: 20px; 
   width: 200px;
-  height: 150px;}
-
+  height: 150px;
+}
 .nugget{background-color: bisque;
 font-style: oblique;
 }
-.Leck:hover{
+.cheese-ham:hover{
   background-color: rgb(255, 255, 255); border-radius: 25px;
   border: 2px solid #000000;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;
+  padding: 20px;
 }
 .Schwanz{font-style: italic; text-align: center;
 }
 .Ass{font-style: italic; text-align: center; font-size: 30px;
 }
-.lol{position: absolute; left: 250px; position: absolute; bottom: 250px;
+.test{position: absolute; left: 310px; position: absolute; bottom: 470px;
+}
+.lol{position: absolute; left: 270px; position: absolute; bottom: 250px;
 }
 .lol:hover{transform: scale(1.5);
+}
+.test2{position:absolute; left: 290px; bottom: 750px;
 }
 .Anti{position: absolute; left: 300px; position: absolute; bottom:600px
 }
 .Anti:hover{transform: scale(2.0);
 }
+.test3{position: absolute; left: 2130px;
+}
 .Goon{position: absolute; right: 250px; position: absolute; bottom: 250px;
 }
 .Goon:hover{transform: scale(1.5);
+}
+.test4{position: absolute; left: 2080px; bottom: 470px;
 }
 .Index{position: absolute; right: 300px; position: absolute; bottom: 600px; width: 100px; height: 100px;
 }
