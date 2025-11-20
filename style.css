@@ -156,20 +156,102 @@ grid-column: span 2;
 }
 .lol:hover{transform: scale(1.5);
 }
+.lol::after{
+  content: '';
+  background: linear-gradient(to right, red, blue);
+  border-radius: 100px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  transition: 100ms;
+}
+.lol:hover::after{
+  width: 0;
+}
 .test2{position:absolute; left: 290px; bottom: 750px;
 }
 .Anti{position: absolute; left: 300px; position: absolute; bottom:600px
 }
 .Anti:hover{transform: scale(2.0);
 }
-.test3{position: absolute; left: 2070px;
+.Anti::after{
+  content: '';
+  background: linear-gradient(to right, red, blue);
+  border-radius: 100px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  transition: 100ms;
+}
+.Anti:hover::after{
+  width: 0;
+}
+.test3{position: absolute; left: 2070px; bottom: 750px;
 }
 .Goon{position: absolute; right: 250px; position: absolute; bottom: 250px;
 }
 .Goon:hover{transform: scale(1.5);
 }
-.test4{position: absolute; left: 2130px; bottom: 470px;
+.Goon::after{
+  content: '';
+  background: linear-gradient(to right, red, blue);
+  border-radius: 100px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  transition: 100ms;
+}
+.Goon:hover::after{
+  width: 0;
+}
+.test4{position: relative; left: 2130px; top: 250px;
 }
 .Index{position: absolute; right: 300px; position: absolute; bottom: 600px; width: 100px; height: 100px;
 }
-.Index:hover{transform: scale(1.8);}
+.Index:hover{transform: scale(1.8);
+}
+.Index::after{
+  content: '';
+  background: linear-gradient(to right, red, blue);
+  border-radius: 100px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  transition: 100ms;  
+}
+.Index:hover::after{
+  width: 0;
+}
+.navbar{background: black;
+padding-right: 15px; padding-left: 15px;
+position: relative; top: -350px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.vote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
